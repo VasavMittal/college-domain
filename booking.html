@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div id="container">
+    <div id="body_header">
+    
+      <h1>Appointment Request Form</h1>
+      <p>Make your appointments more easier</p>
+
+    </div>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend><span class="number">1</span>Your basic details</legend>
+        <label for="name">Name*:</label>
+        <input type="text" id="name" name="user_name" placeholder="Atchyut (only first names)" required pattern="[a-zA-Z0-9]+">
+
+        <label for="mail">Email*:</label>
+        <input type="email" id="mail" name="user_email" placeholder="abc@xyz.com" required>
+
+        <label for="tel">Contact Num:</label>
+        <input type="tel" id="tel" placeholder="Include country code" name="user_num">
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Appointment Details</legend>
+        <label for="appointment_for">Appointment To*:</label>
+        <select id="appointment_for" name="appointment_for" required>
+          <option value="coffee">Dr.Ricky Doe</option>
+          <option value="meeting">Dr.Mohit Gupta</option>
+          <option value="Business">Dr.Rajan Mittal</option>
+          <option value="lunch">Dr.Rakash Shukla</option>
+         
+        </select>
+        <label for="date">Date*:</label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="time">Time*:</label>
+        <input type="time" name="time" value="" required></input>
+        <br>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="G1" value="Male" checked> Male
+        <input type="radio" name="G1" value="Female"> Female
+        <input type="radio" name="G1" value="Other"> Other
+      </fieldset>
+      <a href="index.html"><button type="submit">Request For Appointment</button></a>
+    </form>
+  </div>
+</body>
+
+</html>

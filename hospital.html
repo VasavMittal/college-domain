@@ -1,0 +1,39 @@
+<html>
+<head>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
+		body{
+			background: linear-gradient(#43b9dc, #34d3b4);
+		}
+		video{
+			margin-top: 5%;
+		}
+		#myCanvas{
+			text-align : center;
+			margin-left: 30%;
+			color: white;
+			width: 50%;
+			height: 30%;
+		}
+		
+	</style>
+</head>
+<body>
+	<canvas id="myCanvas">
+      Your browser does not support the HTML canvas tag.</canvas>
+	<center>
+	<video width=50% height=40% controls>
+		<source src="h1.mp4" type="video/mp4">
+	</video>
+	</center>
+	<script>
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		ctx.font = "30px Arial";
+		ctx.strokeText("ABOUT HOSPITAL ", 10, 50);
+	</script>
+</body>
+</html>

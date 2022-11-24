@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="college2.xsl" type="text/xsl"?>
+<helthcare xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="college1.xsd">
+	<hospital>
+		<hid>1</hid>
+		<name>Appolo</name>
+		<address>Ludhiana</address>
+		<patientid>null</patientid>
+		<doctorid>null</doctorid>
+		<inputid>1</inputid>
+	</hospital>
+	<hospital>
+		<hid>1</hid>
+		<name>Appolo</name>
+		<address>Ludhiana</address>
+		<patientid>1</patientid>
+		<doctorid>null</doctorid>
+		<inputid>2</inputid>
+	</hospital>
+	<hospital>
+		<hid>1</hid>
+		<name>Appolo</name>
+		<address>Ludhiana</address>
+		<patientid>1</patientid>
+		<doctorid>1</doctorid>
+		<inputid>3</inputid>
+	</hospital>
+	<hospital>
+		<hid>1</hid>
+		<name>Appolo</name>
+		<address>Ludhiana</address>
+		<patientid>2</patientid>
+		<doctorid>null</doctorid>
+		<inputid>3</inputid>
+	</hospital>
+	<hospital>
+		<hid>1</hid>
+		<name>Appolo</name>
+		<address>Ludhiana</address>
+		<patientid>2</patientid>
+		<doctorid>1</doctorid>
+		<inputid>4</inputid>
+	</hospital>
+</helthcare>
